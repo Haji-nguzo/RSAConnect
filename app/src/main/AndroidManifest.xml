@@ -15,6 +15,18 @@
         android:theme="@style/Theme.RSAConnect"
         tools:targetApi="31">
         <activity
+            android:name=".DriverRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DriverLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".AddDetailActivity"
             android:exported="false" />
         <activity
