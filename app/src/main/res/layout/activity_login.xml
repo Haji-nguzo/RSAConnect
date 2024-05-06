@@ -9,18 +9,17 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
         android:src="@drawable/logn" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MECHAWORLD"
+        android:text="ROADSIDE SAVIOR"
         android:textSize="20sp"
         android:textColor="@color/Red"
         android:textStyle="bold"
@@ -45,27 +44,30 @@
         android:id="@+id/txtEmail"
         android:layout_below="@+id/txtLogn"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="20dp"
         android:text="Email"
         android:textColor="@color/black"
         android:textSize="18sp"/>
-
     <EditText
         android:id="@+id/edtLognEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_below="@+id/txtEmail"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:hint="haji@gmail.com"
+        android:inputType="text" />
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txtPass"
         android:layout_below="@+id/edtLognEmail"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
         android:text="Password"
         android:textColor="@color/black"
         android:textSize="18sp"/>
@@ -73,12 +75,16 @@
     <EditText
         android:id="@+id/edtLognPass"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_below="@+id/txtPass"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="2dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="********"
+        android:inputType="textPassword"
+        android:password="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,17 +92,18 @@
         android:textColor="@color/Red"
         android:layout_below="@+id/edtLognPass"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="15dp"
-        android:id="@+id/txtForgetPass"/>
+        android:layout_marginEnd="20dp"
+        android:id="@+id/txtForgetPass"
+        android:layout_marginTop="5dp"/>
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_below="@id/edtLognPass"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
         android:text="login"
         android:textSize="20sp"/>
